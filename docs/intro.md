@@ -6,18 +6,15 @@ sidebar_position: 1
 
 Let's get started with **bogu**, *The Secret Scanner*.
 
-## Getting Started
+## Running a local scan on a project
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Get started by running a **local scan** on a project folder.
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+bogu runs on modern versions of Linux or macOS.
 
-## Generate a new site
+## Install bogu
 
 Generate a new Docusaurus site using the **classic template**.
 
