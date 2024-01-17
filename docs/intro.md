@@ -34,17 +34,10 @@ source $HOME/.profile
 rm bogu-0.0.2-linux-x64.zip
 ```
 
-## Start your site
+## Run local scan
 
-Run the development server:
+Run a local scan on `~/my-project`
 
 ```bash
-cd my-website
-npm run start
+bogu 
 ```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
