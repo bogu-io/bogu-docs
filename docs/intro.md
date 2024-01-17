@@ -6,27 +6,33 @@ sidebar_position: 1
 
 Let's get started with **bogu**, *The Secret Scanner*.
 
-## Running a local scan on a project
+## Run a local scan of a project folder
 
-Get started by running a **local scan** on a project folder.
+Get started by running a **local scan** of a project folder.
 
 ### What you'll need
 
-bogu runs on modern versions of Linux or macOS.
+bogu runs on modern versions of Linux and macOS.
+
+Tested on:
+
+- macOS 14.2.1 (Apple M2)
+- Ubuntu 22.04.02 (Linux 5.15)
 
 ## Install bogu
 
-Generate a new Docusaurus site using the **classic template**.
+Get the latest version of bogu from our releases and put it in your `PATH`.
 
-The classic template will automatically be added to your project after you run the command:
+Here's an example using Ubuntu.
 
 ```bash
-npm init docusaurus@latest my-website classic
+wget https://github.com/bogu-io/bogu/releases/download/0.0.2/bogu-0.0.2-linux-x64.zip
+sudo unzip bogu-0.0.2-linux-x64.zip -d /usr/local
+sudo mv /usr/local/build-linux /usr/local/bogu
+echo "export PATH=$PATH:/usr/local/bogu" >> $HOME/.profile
+source $HOME/.profile
+rm bogu-0.0.2-linux-x64.zip
 ```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
 
 ## Start your site
 
