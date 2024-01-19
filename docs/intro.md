@@ -28,7 +28,7 @@ Here's an example using Ubuntu.
 ```bash
 wget https://github.com/bogu-io/bogu/releases/download/0.0.3/bogu-0.0.3-linux-x64.zip
 unzip bogu-0.0.3-linux-x64.zip
-./install.sh
+sudo ./install.sh
 ```
 
 ## Run local scan
