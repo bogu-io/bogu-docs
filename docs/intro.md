@@ -26,9 +26,9 @@ Get the latest version of bogu from our releases and put it in your `PATH`.
 Here's an example using Ubuntu.
 
 ```bash
-wget https://github.com/bogu-io/bogu/releases/download/0.0.5/bogu-0.0.5-linux-x64.zip
-unzip bogu-0.0.5-linux-x64.zip
-sudo ./install.sh
+wget https://github.com/bogu-io/bogu/releases/download/0.0.6/bogu-0.0.6-linux-x64.zip
+unzip bogu-0.0.6-linux-x64.zip
+cd bogu-0.0.6/bin
 ```
 
 ## Run local scan
@@ -36,5 +36,5 @@ sudo ./install.sh
 Run a local scan on `~/my-project`
 
 ```bash
-bogu 
+bogu -p ~/my-project
 ```
