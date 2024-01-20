@@ -21,7 +21,7 @@ Tested on:
 
 ## Install bogu
 
-Get the latest version of bogu from our releases and put it in your `PATH`.
+Get the latest version of bogu from our releases and unzip it.
 
 Here's an example using Ubuntu.
 
