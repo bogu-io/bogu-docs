@@ -26,8 +26,8 @@ Get the latest version of bogu from our releases and put it in your `PATH`.
 Here's an example using Ubuntu.
 
 ```bash
-wget https://github.com/bogu-io/bogu/releases/download/0.0.3/bogu-0.0.3-linux-x64.zip
-unzip bogu-0.0.3-linux-x64.zip
+wget https://github.com/bogu-io/bogu/releases/download/0.0.5/bogu-0.0.5-linux-x64.zip
+unzip bogu-0.0.5-linux-x64.zip
 sudo ./install.sh
 ```
 
