@@ -36,5 +36,5 @@ cd bogu-0.0.6/bin
 Run a local scan on `~/my-project`
 
 ```bash
-bogu -p ~/my-project
+./bogu -p ~/my-project
 ```
