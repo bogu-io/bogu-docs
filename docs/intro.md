@@ -6,42 +6,35 @@ sidebar_position: 1
 
 Let's get started with **bogu**, *The Secret Scanner*.
 
-## Getting Started
+## Run a local scan of a project folder
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Get started by running a **local scan** of a project folder.
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+bogu runs on modern versions of Linux and macOS.
 
-## Generate a new site
+Tested on:
 
-Generate a new Docusaurus site using the **classic template**.
+- macOS 14 (Apple M1/M2)
+- Ubuntu 22.04.02 (Linux 5.15)
 
-The classic template will automatically be added to your project after you run the command:
+## Install bogu
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Get the latest version of bogu from our releases and unzip it.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+Here's an example using Ubuntu.
 
 ```bash
-cd my-website
-npm run start
+wget https://github.com/bogu-io/bogu/releases/download/0.0.7/bogu-0.0.6-linux-x64.zip
+unzip bogu-0.0.7-linux-x64.zip
+cd bogu-0.0.7/bin
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Run local scan
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Run a local scan on `~/my-project`
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+```bash
+./bogu -p ~/my-project
+```
