@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# macOS
+# Linux
 
 Let's install **bogu** on Linux!
 
