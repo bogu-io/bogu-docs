@@ -12,6 +12,16 @@ All the bells and whistles.
 
 Show help text.
 
+## <option> is one of
+
+### -p <PATH>, --path <PATH>
+
+Local scan path.
+
+### --github-owner <OWNER>
+
+GitHub Repo Scan by Owner
+
 ## Mutually Exclusive Options
 
 ### --version
