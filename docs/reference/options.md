@@ -14,11 +14,11 @@ Show help text.
 
 ## <option> is one of
 
-### -p <PATH>, --path <PATH>
+### -p &lt;PATH&gt;, --path &lt;PATH&gt;
 
 Local scan path.
 
-### --github-owner <OWNER>
+### --github-owner &lt;OWNER&gt;
 
 GitHub Repo Scan by Owner
 
