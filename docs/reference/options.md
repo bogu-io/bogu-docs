@@ -6,6 +6,12 @@ sidebar_position: 1
 
 All the bells and whistles.
 
+## Usage
+
+### --help, -h
+
+Show help text.
+
 ## Mutually Exclusive Options
 
 ### --version
