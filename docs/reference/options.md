@@ -12,7 +12,7 @@ All the bells and whistles.
 
 Show help text.
 
-## <option> is one of
+## &lt;option&gt; is one of
 
 ### -p &lt;PATH&gt;, --path &lt;PATH&gt;
 
