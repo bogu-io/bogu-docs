@@ -22,6 +22,26 @@ Local scan path.
 
 GitHub Repo Scan by Owner
 
+### -d, --debug
+
+Debug mode.
+
+### -v, --verbose
+
+Verbose mode.
+
+### -s, --silent
+
+Silent mode.
+
+### -t, --token
+
+GitHub Token.
+
+### -f, --format
+
+Output format.
+
 ## Mutually Exclusive Options
 
 ### --version
