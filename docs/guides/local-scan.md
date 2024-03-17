@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Local Scan
 
-The local scan allows you to recursively scan a directory for secrets.
+The local scan allows you to recursively scan a directory for secrets. We will use the `-p` or `--path` option to specify the directory to scan.
 
 Below we are going to scan our `mock` test folder for secrets.
 
@@ -34,4 +34,15 @@ File: mock/gcp-oauth.json
 Found GCP OAuth file: mock/gcp-oauth.json
 File: mock/gcp-service-credentials.json
 Found GCP service credentials file: mock/gcp-service-credentials.json
+```
+
+By default bogu will output information about the file it is scanning and the secrets it finds. You can turn this output off by using the `--silent` option.
+
+```bash
+$ bogu -p mock --silent
+Bogu v0.0.12
+
+Starting local path scan...
+
+$
 ```
