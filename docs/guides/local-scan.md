@@ -36,10 +36,10 @@ File: mock/gcp-service-credentials.json
 Found GCP service credentials file: mock/gcp-service-credentials.json
 ```
 
-By default bogu will output information about the file it is scanning and the secrets it finds. You can turn this output off by using the `--silent` option.
+By default bogu will output information about the file it is scanning and the secrets it finds. You can turn this output off by using the `s` or `--silent` option.
 
 ```bash
-$ bogu -p mock --silent
+$ bogu -p mock -s
 Bogu v0.0.12
 
 Starting local path scan...
