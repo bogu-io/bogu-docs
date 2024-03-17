@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Getting Started
 
-Let's get started with **bogu**, *The Secret Scanner*.
+Let's get started with **bogu**, _The Secret Scanner_.
 
 ## Run a local scan of a project folder
 
@@ -26,9 +26,9 @@ Get the latest version of bogu from our releases and unzip it.
 Here's an example using Ubuntu.
 
 ```bash
-wget https://github.com/bogu-io/bogu/releases/download/0.0.9/bogu-0.0.9-linux-x64.zip
-unzip bogu-0.0.9-linux-x64.zip
-cd bogu-0.0.9/bin
+wget https://github.com/bogu-io/bogu/releases/download/0.0.12/bogu-0.0.12-linux-x64.zip
+unzip bogu-0.0.12-linux-x64.zip
+cd bogu-0.0.12/bin
 ```
 
 ## Run local scan
