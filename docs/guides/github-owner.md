@@ -1,12 +1,14 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Local Scan
+# GitHub User or Organization Scan
 
-The local scan allows you to recursively scan a directory for secrets. We will use the `-p` or `--path` option to specify the directory to scan.
+The GitHub user or organization scan allows you to scan a GitHub user or organization for secrets. We will use the `--github-owner` option to specify the user or organization to scan.
 
-Below we are going to scan our `mock` test folder for secrets.
+To avoid rate limiting and to scan private repositories, you will need to provide a GitHub personal access token. You can create a token by following the instructions [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
+
+Below we are going to scan the `bogu` GitHub organization for secrets.
 
 ```bash
 $ bogu -p mock
