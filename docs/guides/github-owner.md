@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# GitHub User or Organization Scan
+# GitHub User or Org Scan
 
 The GitHub user or organization scan allows you to scan a GitHub user or organization for secrets. We will use the `--github-owner` option to specify the user or organization to scan.
 
