@@ -22,6 +22,10 @@ Local scan path.
 
 GitHub Repo Scan by Owner
 
+### -i &lt;FILE&gt;, --ignore-path &lt;FILE&gt;
+
+Bogu ignore file path.
+
 ### -d, --debug
 
 Debug mode.
