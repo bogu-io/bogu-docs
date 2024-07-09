@@ -26,9 +26,9 @@ Get the latest version of bogu from our releases and unzip it.
 Here's an example using Ubuntu.
 
 ```bash
-wget https://github.com/bogu-io/bogu/releases/download/0.0.16/bogu-0.0.16-linux-x64.zip
-unzip bogu-0.0.16-linux-x64.zip
-cd bogu-0.0.16/bin
+wget https://github.com/bogu-io/bogu/releases/download/0.0.17/bogu-0.0.17-linux-x64.zip
+unzip bogu-0.0.17-linux-x64.zip
+cd bogu-0.0.17/bin
 ```
 
 ## Run local scan

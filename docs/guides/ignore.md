@@ -1,33 +1,30 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# GitHub User or Org Scan
+# Ignoring Paths
 
-The GitHub user or organization scan allows you to scan a GitHub user or organization for secrets. We will use the `--github-owner` option to specify the user or organization to scan.
+Bogu automatically creates a `boguignore` file in `$HOME/.bogu` where you can add path or file patterns to ignore during any scan.
 
-To avoid rate limiting and to scan private repositories, you will need to provide a GitHub personal access token with `repo` access. You can create a token by following the instructions [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
+You can also specify a custom ignore file using the `-i` or `--ignore-path` option.
 
-Use the `-t` or `--token` option to provide the token.
-
-Below we are going to scan the `bogu` GitHub organization for secrets.
+Paths are listed one per line and use regular expressions to match files and directories. Here are some examples:
 
 ```bash
-$ bogu --github-owner bogu-io --token ghp_dHLrWLcEXAMPLErZwmIllFMz9RrEXAMPLErV
-Bogu v0.0.16
-
-Starting GitHub User scan...
-
-...
+node_modules
+\\.git
+\\.idea
+project-(dev|staging|prod)\\/test
 ```
 
-By default bogu will output information about the file it is scanning and the secrets it finds. You can turn this output off by using the `-s` or `--silent` option.
+Scans will ignore the above with no additional options if they are in the provided `$HOME/.bogu/boguignore` file.
 
 ```bash
-$ bogu --github-owner bogu-io --token ghp_dHLrWLcEXAMPLErZwmIllFMz9RrEXAMPLErV -s
-Bogu v0.0.16
+bogu -p /path/to/scan
+```
 
-Starting GitHub User scan...
+You can also specify a custom ignore file:
 
-$
+```bash
+bogu -p /path/to/scan -i /path/to/ignore.txt
 ```

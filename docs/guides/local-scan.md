@@ -10,7 +10,7 @@ Below we are going to scan our `mock` test folder for secrets.
 
 ```bash
 $ bogu -p mock
-Bogu v0.0.16
+Bogu v0.0.17
 
 Starting local path scan...
 
@@ -40,7 +40,7 @@ By default bogu will output information about the file it is scanning and the se
 
 ```bash
 $ bogu -p mock -s
-Bogu v0.0.16
+Bogu v0.0.17
 
 Starting local path scan...
 
