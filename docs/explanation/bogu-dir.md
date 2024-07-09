@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# The .bogu Directory
+# .bogu Directory
 
 The `.bogu` directory contains configuration files, the database, and other temporary files for bogu. It is created in the `$HOME` folder when you first run bogu.
 
 ## boguignore
 
-Bogu automatically creates a `.boguignore` file in the `$HOME/.bogu` directory where you can add path or file patterns to ignore during a scan. See [Ignoring Paths](/docs/guides/ignore) for more information.
+Bogu automatically creates a `boguignore` file in the `$HOME/.bogu` directory where you can add path or file patterns to ignore during a scan. See [Ignoring Paths](/docs/guides/ignore) for more information.
 
 ## archives
 
