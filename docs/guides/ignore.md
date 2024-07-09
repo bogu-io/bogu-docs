@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Ignoring Paths
 
-Bogu automatically creates a `boguignore` file in `$HOME/.bogu` where you can add path or file patterns to ignore during any scan.
+Bogu automatically creates a `boguignore` file in `$HOME/.bogu` where you can add path or file patterns to ignore during a scan.
 
 You can also specify a custom ignore file using the `-i` or `--ignore-path` option.
 
